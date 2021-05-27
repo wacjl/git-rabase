@@ -14,7 +14,7 @@ function WebSocketTest(url)
                {
                   // Web Socket 已连接上，使用 send() 方法发送数据
                   ws.send("发送数据");
-                  alert("数据发送中...main修改");
+                  alert("数据发送中...test");
                };
                 
                ws.onmessage = function (evt) 
