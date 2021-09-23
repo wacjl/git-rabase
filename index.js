@@ -14,3 +14,4 @@ if(!flag){
     console.log(error)
   })
 }
+const test=2
